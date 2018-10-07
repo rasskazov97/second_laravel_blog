@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e0778dfba2.js"></script>
 </head>
 <body>
     <div id="app">
@@ -36,7 +37,7 @@
                       <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Блог</a>
                           <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Категории</a>
+                            <a class="dropdown-item" href="{{route('admin.category.index')}}">Категории</a>
                             <a class="dropdown-item" href="#">Материалы</a>
                           </div>
                         </li>
